@@ -774,11 +774,11 @@ h1, h2, h3, h4, h5 { line-height: 1.15; color: var(--green-900); font-weight: 70
 }
 
 /* Services page — one background image per service category */
-.service-card-img.placeholder.network  { background: url("imgs/Network\ Setup.jpg") center/cover no-repeat; }
-.service-card-img.placeholder.graphics { background: url("imgs/Graphics\ Design.jpg") center/cover no-repeat; }
-.service-card-img.placeholder.security { background: url("imgs/Servers\ and\ CCTV\ installation.jpg") center/cover no-repeat; }
-.service-card-img.placeholder.video    { background: url("imgs/Video\ editing.jpg") center/cover no-repeat; }
-.service-card-img.placeholder.dev      { background: url("imgs/Full\ Stack\ Development.jpg") center/cover no-repeat; }
+.service-card-img.placeholder.network  { background: url("imgs/Network\ Setup.png") center/cover no-repeat; }
+.service-card-img.placeholder.graphics { background: url("imgs/Graphics\ Design.png") center/cover no-repeat; }
+.service-card-img.placeholder.security { background: url("imgs/Servers\ and\ CCTV\ installation.png") center/cover no-repeat; }
+.service-card-img.placeholder.video    { background: url("imgs/Video\ editing.png") center/cover no-repeat; }
+.service-card-img.placeholder.dev      { background: url("imgs/Full\ Stack\ Development.png") center/cover no-repeat; }
 
 .service-card-img img {
   width: 100%;
