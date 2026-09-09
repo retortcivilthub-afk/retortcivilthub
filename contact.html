@@ -57,8 +57,11 @@
             <h3>Request a consultation</h3>
             <form class="form-grid" action="https://formsubmit.co/retortcivilthub@gmail.com" method="POST">
               <input type="hidden" name="_subject" value="New consultation request!" />
-              <input type="hidden" name="_autoresponse" value="Dear valued customer, Thank you for contacting us. We truly appreciate you taking the time to get in touch. This email confirms that we have successfully received your message. Our team carefully reviews every inquiry, and we will get back to you as soon as possible - typically within 1-2 business days. In the meantime, if your matter is urgent, feel free to reply to this email with additional details so we can prioritise your request. Thank you once again for choosing to connect with us. We look forward to assisting you. Warm regards, Retort Civilt Hub" />
-              <input type="hidden" name="_captcha" value="false" />
+              <input type="hidden" name="_autoresponse" value="Dear {name}, Thank you for reaching out to us. We've received your message and truly appreciate you contacting us. A member of our team will review your inquiry and respond as soon as possible, usually within 1-2 business days. Your message is important to us, and we're committed to providing you with a helpful and timely response. If you have any additional information that might help us assist you better, simply reply to this email. Warm regards, Retort Civilt Hub" />
+              <input type="hidden" name="_captcha" value="true" />
+              <input type="hidden" name="_template" value="table" />
+              <input type="hidden" name="_from" value="Retort Civilt Hub <retortcivilthub@gmail.com>" />
+              <input type="hidden" name="_replyto" value="{email}" />
               <input type="text" name="name" placeholder="Your name" aria-label="Your name" required />
               <input type="email" name="email" placeholder="Your email" aria-label="Your email" required />
               <input type="text" name="subject" placeholder="Subject" aria-label="Project subject" />
